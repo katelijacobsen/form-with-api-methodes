@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Newsletter from "./components/Newsletter";
+import Newsletter from "../components/Newsletter";
 import { getSubscribtions } from "@/lib/supabase";
 
 

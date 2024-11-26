@@ -1,7 +1,5 @@
 // import { getSubscribtions } from "@/lib/supabase";
-
 import {
-  getSubscribtions,
   getSubscriber,
   patchSubscribers,
   deleteSubscriber,

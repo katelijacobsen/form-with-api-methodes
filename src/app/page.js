@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Newsletter from "../components/Newsletter";
 import { getSubscribtions } from "@/lib/supabase";
+import Newsletter from "@/components/Newsletter";
 
 
 export default async function Home() {
@@ -10,7 +10,7 @@ export default async function Home() {
     <h1 className="text-4xl sm:text-5xl md:text-6xl text-white font-bold mb-6 text-center">
       Subscribe to our Newsletter!
     </h1>
-    <Newsletter />
+    <Newsletter/>
     <ul className="bg-indigo-600 p-5 rounded-md w-full sm:w-3/4 md:w-2/3 lg:w-1/2 grid grid-cols-3 gap-4">
       {subscribers.map((subscriber) => {
         return (

@@ -1,9 +1,9 @@
-// import { getSubscribtions } from "@/lib/supabase";
+// import { getSubscribtions } from "supabase";
 import {
   getSubscriber,
   patchSubscribers,
   deleteSubscriber,
-} from "@/lib/supabase"; //fetches
+} from "../../supabase"; //fetches
 import { revalidatePath } from "next/cache"; // update & refresh
 import { redirect } from "next/navigation"; //redirecter tilbage til page
 import Link from "next/link"; //don't forget this little devil.

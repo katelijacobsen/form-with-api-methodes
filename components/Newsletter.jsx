@@ -1,4 +1,4 @@
-import { postSubscribers } from "@/lib/supabase";
+import { postSubscribers } from "../app/supabase";
 import { revalidatePath } from "next/cache";
 
 async function Newsletter() {

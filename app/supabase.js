@@ -1,3 +1,4 @@
+'use server';
 // url & key hentes fra .env.local, variabler
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;

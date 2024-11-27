@@ -40,7 +40,7 @@ export async function getSubscribtions() {
   // Når konverteringen er færdig så vis formatet.
   const data = await response.json();
   // færdigparset svar fra serveren
-  return data;
+  return Array.isArray(data) ? data : [data];
 }
 
 export async function postSubscribers(subData) {

@@ -5,6 +5,8 @@ import Newsletter from "../components/Newsletter";
 
 export default async function Home() {
   const subscribers = await getSubscribtions();
+  console.log(subscribers);
+  
   return (
     <main className="bg-gradient-to-tr from-gray-900 to-black gap-6 flex flex-col justify-center items-center min-h-screen p-4">
     <h1 className="text-4xl sm:text-5xl md:text-6xl text-white font-bold mb-6 text-center">

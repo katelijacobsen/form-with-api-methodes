@@ -8,7 +8,7 @@ import { revalidatePath } from "next/cache"; // update & refresh
 import { redirect } from "next/navigation"; //redirecter tilbage til page
 import Link from "next/link"; //don't forget this little devil.
 
-export default async function Subscriber({ params }) {
+export default async function page({ params }) {
   const { id } = await params;
 
   const subscriber = await getSubscriber(id);

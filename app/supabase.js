@@ -38,10 +38,12 @@ export async function getSubscribtions() {
     headers: headersList,
   });
 
+  
+
   // Når konverteringen er færdig så vis formatet.
   const data = await response.json();
   // færdigparset svar fra serveren
-  return Array.isArray(data) ? data : [data];
+  return data;
 }
 
 export async function postSubscribers(subData) {

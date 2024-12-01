@@ -48,7 +48,7 @@ async function Newsletter() {
         className="rounded-md bg-gradient-to-tr from-indigo-900 to-indigo-700 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-indigo-700 focus:shadow-none active:bg-indigo-700 hover:bg-indigo-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
         type="submit"
       >
-        Subscribe
+        Subscribe!
       </button>
     </form>
   );
